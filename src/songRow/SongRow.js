@@ -1,4 +1,5 @@
 import React from 'react';
+import './songRow.css'
 import { FaPlay } from 'react-icons/fa';
 import { IoIosHeart, IoMdShareAlt, IoMdArrowDropdown } from 'react-icons/io';
 import { MdDone } from 'react-icons/md';

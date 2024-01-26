@@ -1,0 +1,30 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .tableHeader {
+    border-bottom: 2px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    background-color: #e5e5e5;
+    border-right: 2px solid #FAFAFA;
+  }
+
+  .tableHeader:last-child{
+    border-right: none;
+  }
+
+
+
+ 
+

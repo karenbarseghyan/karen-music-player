@@ -1,5 +1,6 @@
 import React from 'react';
 import SongList from '../songList/SongList';
+import "./songPlayer.css"
 
 
 const SongPlayer = () => {
