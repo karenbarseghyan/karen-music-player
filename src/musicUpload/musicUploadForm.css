@@ -1,0 +1,8 @@
+.mucisUploadStyle {
+    display: flex;
+    justify-content: space-evenly;
+    background: #e5e5e5;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
