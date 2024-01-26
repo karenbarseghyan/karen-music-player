@@ -6,12 +6,10 @@ import { IoMdArrowDropdown } from 'react-icons/io';
 import { LuArrowDownUp } from "react-icons/lu";
 import { IoIosSearch } from 'react-icons/io';
 import SongList from '../songList/SongList';
+import MusicUploadForm from '../musicUpload/MusicUploadForm';
 
 
 const SongPlayer = () => {
-
-    
-  // Fetch or set your to-do list
   const songs = [
     { id: 1, songName: 'Halo' , artistName: 'Blackbird  Blackbird', trackNumber: 1},
     { id: 2, songName: 'Blind' , artistName: 'Blackbird Blackbird', trackNumber: 2},
@@ -74,6 +72,7 @@ const SongPlayer = () => {
             
         </div>
         <SongList songs={filteredSongs} /> 
+        <MusicUploadForm songs={songs}/>
     </div>
         
     
