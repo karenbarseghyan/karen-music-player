@@ -5,6 +5,42 @@ body
     font-family: sans-serif;
 }
 
+.table{
+    position: relative;
+    min-width: 700px
+}
+
+.tableRaw{
+    display: flex;
+}
+
+.searchBar{
+    position: relative;
+}
+
+.searchIcon{
+    position: absolute;
+    padding: 4px 6px;
+}
+
+.searchBarInput {
+    text-indent: 20px;
+    border-radius: 10px;
+}
+
+.playerHeader{
+    border: 1px solid black;
+    position: relative;
+    padding: 6px;
+    border-radius: 5px;
+    background: #e5e5e5;
+    display: flex;
+    justify-content: space-between;
+}
+
+.playerHeaderButton{
+    margin-right: 5px;
+}
 
 
 

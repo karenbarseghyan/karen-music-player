@@ -1,6 +1,6 @@
 import React from 'react';
-import SongRow from '../songRow/SongRow';
 import './songList.css'
+import SongRow from '../songRow/SongRow';
 
 const SongList = ({ songs }) => {
   return (
